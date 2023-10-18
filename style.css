@@ -1,49 +1,60 @@
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
-    margin-top: 2em; 
-    padding: 4em;
-    text-align: center;
-  }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  margin-top: 2em;
+  padding: 4em;
+  text-align: center;
+}
 
 .question-card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
-    margin-top: 2em; 
-    padding: 4em;
-    text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  margin-top: 2em;
+  padding: 4em;
+  text-align: center;
 }
 
 .question-hint {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
-    margin-top: 2em; 
-    padding: 4em;
-    text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  margin-top: 2em;
+  padding: 4em;
+  text-align: center;
 }
 
-  .intro {
-    text-align: justify;
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
+.intro {
+  text-align: justify;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
 
-  body {
-    background-color: whitesmoke;
-  }
+body {
+  background-color: whitesmoke;
+}
 
-  #question {
-    font-weight: 600;
-    font-size:xx-large;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-  }
+#question {
+  font-weight: 600;
+  font-size: xx-large;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
 
-  #answers {
-    font-size: large;
-    font-weight: 400;
-    padding-bottom: 1.5em;
-  }
+#answers {
+  font-size: large;
+  font-weight: 400;
+  padding-bottom: 1.5em;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: gray;
+  text-align: center;
+  font-size: small;
+}
